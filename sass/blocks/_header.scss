@@ -1,0 +1,55 @@
+.btn {
+  @include button($p: 15px 48px);
+}
+header {
+  padding: 40px;
+}
+.containre {
+}
+.header__wrapper {
+  @include d-flex($j: space-between);
+}
+.logo {
+}
+.header__ul {
+  @include d-flex($g: 64px);
+}
+.header__li {
+}
+.header__link {
+}
+.btn {
+}
+.small-btn {
+  padding: 0;
+  @include d-flex;
+  animation-name: sun-icon;
+}
+.sun {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 100%;
+}
+.moon {
+  width: 24px;
+  height: 24px;
+  padding: 20px;
+  border-radius: 100%;
+}
+.header__btn {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  transition: 0.5s all;
+}
+header aside {
+  @include d-flex($g: 12px);
+}
+.sun:checked {
+  .moon {
+    background-color: red;
+  }
+}

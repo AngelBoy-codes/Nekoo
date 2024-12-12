@@ -1,0 +1,21 @@
+@mixin d-flex($g: 0, $j: flex-start) {
+  display: flex;
+  gap: $g;
+  justify-content: $j;
+  align-items: center;
+}
+@mixin button(
+  $b-color: #c75e90,
+  $color: #fff,
+  $b-radius: 220px,
+  $p: 10px 30px
+) {
+  border: none;
+  background-color: $b-color;
+  color: $color;
+  padding: $p;
+  border-radius: $b-radius;
+  font-family: "Poppins";
+  font-size: 12px;
+  line-height: 18px;
+}

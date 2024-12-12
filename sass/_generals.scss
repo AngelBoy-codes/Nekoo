@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+::-webkit-scrollbar {
+  background: pink;
+}
+body {
+  background-color: $main-color;
+}
+a {
+  color: $text-color;
+}
+* {
+  font-family: "Poppins";
+}
