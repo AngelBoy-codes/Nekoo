@@ -47,7 +47,7 @@ button {
 }
 
 body {
-  background-color: #161616;
+  background-color: #1d1d1d;
 }
 
 a {
@@ -88,15 +88,6 @@ header {
   align-items: center;
 }
 
-.small-btn {
-  padding: 0;
-  display: flex;
-  gap: 0;
-  justify-content: flex-start;
-  align-items: center;
-  animation-name: sun-icon;
-}
-
 .sun {
   width: 24px;
   height: 24px;
@@ -127,8 +118,14 @@ header aside {
   align-items: center;
 }
 
-.sun:checked .moon {
-  background-color: red;
+.small-btn {
+  padding: 0;
+  display: flex;
+  gap: 0;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70px;
+  height: 40px;
 }
 
 .btn {
@@ -258,4 +255,32 @@ header aside {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: #ffffff;
+}
+
+.cats-photos__ul {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1320px;
+  margin-left: calc(50% - 660px);
+}
+
+.cats-photos__li {
+  position: relative;
+}
+
+.cats-photos__li::before {
+  content: "";
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  right: 25px;
+  top: calc(100% - 26px);
+  background-image: url("../../img/PetHouse-Icon.svg");
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #c75e90;
+  border-radius: 100%;
 }/*# sourceMappingURL=style.css.map */

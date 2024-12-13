@@ -20,11 +20,7 @@ header {
 }
 .btn {
 }
-.small-btn {
-  padding: 0;
-  @include d-flex;
-  animation-name: sun-icon;
-}
+
 .sun {
   width: 24px;
   height: 24px;
@@ -48,8 +44,10 @@ header {
 header aside {
   @include d-flex($g: 12px);
 }
-.sun:checked {
-  .moon {
-    background-color: red;
-  }
+
+.small-btn {
+  padding: 0;
+  @include d-flex($j:flex-start);
+  width: 70px;
+  height: 40px;
 }

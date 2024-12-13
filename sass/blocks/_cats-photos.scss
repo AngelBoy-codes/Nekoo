@@ -1,0 +1,26 @@
+.cats-photos__ul {
+  @include d-flex($g: 20px);
+  width: 1320px;
+  margin-left: calc(50% - 660px);
+}
+.cats-photos__li {
+  position: relative;
+}
+.cats-photos__li::before {
+  content: "";
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  right: 25px;
+  top: calc(100% - 26px);
+  background-image: url("../../img/PetHouse-Icon.svg");
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $secondary-color;
+  border-radius: 100%;
+}
+.cats-photos__img {
+}
+.cats-photos {
+}
