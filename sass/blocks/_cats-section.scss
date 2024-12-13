@@ -1,0 +1,105 @@
+.btn {
+  @include button;
+}
+.cats-comfort {
+  padding: 40px;
+  color: $text-color;
+}
+.container {
+}
+.cats__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cats__ul {
+  @include d-flex($g: 30px);
+  background-color: rgb(14, 14, 14);
+  padding: 40px;
+  border-radius: 40px;
+  position: relative;
+  padding-left: 300px;
+  height: 480px;
+}
+.cats__li {
+  padding: 20px;
+  @include d-flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 300px;
+}
+.first {
+    position: absolute;
+    left: 0;
+    background-color: #C75E90;
+    width: 300px;
+    height: 100%;
+    border-radius: 40px;
+    padding: 60px 20px;
+    text-align: left;
+}
+.cats__li-title {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.36em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #181818;
+
+  width: 265px;
+}
+.cats__second-title {
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.cats__info {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.btn {
+}
+.cats__btn {
+  padding: 14px 84px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+.cats__btn::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-image: url("../../img/arrow-right.svg");
+  top: calc(50% - 12px);
+  left: 17px;
+}
+.cats-li__img {
+}
+.cats-li__comfort-title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}

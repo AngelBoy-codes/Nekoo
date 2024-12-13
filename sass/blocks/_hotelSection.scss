@@ -1,11 +1,25 @@
 .hotel-info__subtitle{
-    font-family: Poppins;
+    font-family: Puppins;
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
-    letter-spacing: 0.36em;
+    letter-spacing: 0.24em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #696969;    
+}
+.hotelSection{
+    width: 1495px;
+    margin: 0 auto;
+}
+.hotel-info__title{
+    font-family: Poppins;
+font-size: 46px;
+font-weight: 700;
+line-height: 69px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
 }
